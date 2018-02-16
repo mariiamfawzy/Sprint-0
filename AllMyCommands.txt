@@ -1,0 +1,18 @@
+git init
+git add 1stFile.docx
+git add 2ndFile.docx
+git add 3rdFile.docx
+git rm --cached 2ndFile.docx
+git add 2ndFile.docx
+git commit -m "added the three files"
+git push https://github.com/mariiamfawzy/Sprint-0.git master
+git branch ReadMe
+git checkout ReadMe
+git add README.md
+git commit -m "added README and added new branch ReadMe"
+git push https://github.com/mariiamfawzy/Sprint-0.git ReadMe
+git checkout master
+git merge ReadMe
+git add AllMyCommands.txt
+git commit -m "added AllMyCommands.txt"
+git push https://github.com/mariiamfawzy/Sprint-0.git master
